@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.space-btwn{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.gap1{
+    gap: var(--gap-1);
+}
+
+.gap2{
+    gap: var(--gap-2);
+}
+
+.gap3{
+    gap: var(--gap-3);
+}

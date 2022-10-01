@@ -1,0 +1,24 @@
+.input-default{
+    height: 2.75rem;
+    padding: 0 1rem;
+
+    border: var(--border-1) solid var(--color-grey-3);
+    border-radius: var(--radius-1);
+}
+
+.input-default:hover{
+    height: 2.75rem;
+    padding: 0 1rem;
+
+    border: var(--border-1) solid var(--color-brand-1);
+    border-radius: var(--radius-1);
+}
+
+.input-default:focus{
+    outline: none;
+    height: 2.75rem;
+    padding: 0 1rem;
+
+    border: var(--border-1) solid var(--color-brand-1);
+    border-radius: var(--radius-1);
+}

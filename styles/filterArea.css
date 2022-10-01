@@ -1,0 +1,19 @@
+#filterArea > div > h2{
+    margin-bottom: 2.375rem;
+}
+
+#filterArea > div > div > .btn-outline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 5.5625rem;
+}
+
+.cardTotal{
+    margin-top: 1.75rem;
+    border: var(--border-1) solid var(--color-grey-4);
+    border-radius: var(--radius-1);
+    padding: .875rem 1rem;
+}

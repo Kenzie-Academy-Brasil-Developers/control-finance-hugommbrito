@@ -1,0 +1,30 @@
+OK  1- Trazer index p/ home e refazer ligações
+OK  2 - Criar estrutura de CSS componentizada
+OK      I - colors
+OK      II - inputs
+OK      III - buttons
+OK      IV - Navbar
+OK      V - Area de Filtros
+OK      VI - Cards de Valores
+OK      VII - Modal
+    3 - Desenvolver HTML estático para a página
+    4 - Aplicar modelos à página
+        I - Criar MOBILE FIRST
+            a. - Header
+            b. - Main
+            c. - Modal
+        II - Adaptar para Desktop
+            a. - Header
+            b. - Main
+            c. - Modal
+        III - Checar se está FIEL ao figma
+    5 - Criar lógica para abrir e fechar Modal
+
+    6 - Criar funções JS
+        I - Criar função para renderizar os cards na tela (recebe como parâmetro uma lista de cards (completa ou filtrada))
+        II -  Criar a função de renderizar a soma dos cards exibidos (recebe como parâmetro uma lista de cards (completa ou filtrada))
+        III - Criar função para filtrar os dados selecionados (a partir do click)
+            a. renderizar os cards filtrados
+            b. renderizar a soma do filtro
+        IV - Criar função para remover os dados (usar ID do botão), remover dos dois arrays (completo e filtrado)
+        V - Criar função responsável por adicionar novos elementos no objeto 

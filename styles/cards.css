@@ -1,0 +1,19 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+
+    border: var(--border-1) solid var(--color-grey-5);
+    border-radius: var(--radius-1);
+}
+
+.card:hover{
+    border: var(--border-1) solid var(--color-brand-1);
+}
+
+.card-btns{
+    display: flex;
+    gap: 2rem;
+}
