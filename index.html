@@ -26,7 +26,7 @@
     <header class="bgc-grey5">
         <div class="container">
             <h1 class="title1-bold"><span>Control </span>Finance</h1>
-            <button class="btn-primary">Registrar novo valor</button>
+            <button class="btn-primary" data-modal-control="modal">Registrar novo valor</button>
         </div>
     </header>
     <main id="app">
@@ -107,18 +107,18 @@
         </section>
     </main>
 
-    <div class="modal bgc-modal">
+    <div class="modal bgc-modal show-modal" id="modal">
         <div class="modal-card flex-col gap1">
             <div class="flex space-btwn">
                 <h2 class="title2-bold">Registro de valor</h2>
-                <button class="btn-close-modal">X</button>
+                <button class="btn-close-modal" data-modal-control="modal">X</button>
             </div>
             <p class="text1-regular">Digite o valor e em seguida aperte o botão referente ao tipo do valor</p>
             <div class="flex-col gap3">
                 <label class="text1-medium" for="valor">Valor</label>
-                <input class="input-default" type="number" step="0.01" required>
+                <span class="input-span input-default">R$<input class="currency-input" type="number" step="0.01" required placeholder="00.00"></span>
             </div>
-            <div class="flex-col gap3">
+            <div class="modal-categoty-btn flex-col gap3">
                 <p class="text1-medium">Tipo de valor</p>
                 <input type="radio" hidden id="0" value="0" name="valueType">
                 <label class="btn-outline" tabindex="0" for="0">Entrada</label>
@@ -127,7 +127,7 @@
             </div>
             <div class=" flex space-btwn">
                 <button class="btn-greylow modal-submit-btn">Cancelar</button>
-                <button class="btn-primary modal-submit-btn">Insserir valor</button>
+                <button class="btn-primary modal-submit-btn">Inserir valor</button>
             </div>
         </div>
     </div>

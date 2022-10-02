@@ -7,18 +7,18 @@ OK      IV - Navbar
 OK      V - Area de Filtros
 OK      VI - Cards de Valores
 OK      VII - Modal
-    3 - Desenvolver HTML estático para a página
-    4 - Aplicar modelos à página
-        I - Criar MOBILE FIRST
-            a. - Header
-            b. - Main
-            c. - Modal
-        II - Adaptar para Desktop
-            a. - Header
-            b. - Main
-            c. - Modal
-        III - Checar se está FIEL ao figma
-    5 - Criar lógica para abrir e fechar Modal
+OK  3 - Desenvolver HTML estático para a página
+OK  4 - Aplicar modelos à página
+OK      I - Criar MOBILE FIRST
+OK          a. - Header
+OK          b. - Main
+OK          c. - Modal
+OK      II - Adaptar para Desktop
+OK          a. - Header
+OK          b. - Main
+OK          c. - Modal
+OK      III - Checar se está FIEL ao figma
+OK  5 - Criar lógica para abrir e fechar Modal
 
     6 - Criar funções JS
         I - Criar função para renderizar os cards na tela (recebe como parâmetro uma lista de cards (completa ou filtrada))

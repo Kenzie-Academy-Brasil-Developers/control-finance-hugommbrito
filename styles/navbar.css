@@ -16,3 +16,14 @@ header > .container > h1 > span{
 header > .container > button{
     width: 100%;
 }
+
+@media (min-width: 600px){
+    header > .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header > .container > button{
+        width: 12rem;
+    }
+}

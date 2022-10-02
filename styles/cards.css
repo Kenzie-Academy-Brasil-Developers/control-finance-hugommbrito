@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
 
+    height: 2.625rem;
     padding: 1rem 2rem;
 
     border: var(--border-1) solid var(--color-grey-5);

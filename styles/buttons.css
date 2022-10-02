@@ -102,6 +102,7 @@
 .btn-close-modal{
     height: 1.875rem;
     width: 2.1875rem;
+    cursor: pointer;
 
     display: flex;
     flex-direction: column;
