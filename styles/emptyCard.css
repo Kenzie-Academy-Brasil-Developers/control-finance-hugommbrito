@@ -1,0 +1,18 @@
+.emptyCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: (var(--gap-1));
+
+    background-color: var(--color-grey-5);
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 3rem;
+
+    border: var(--border-1) dashed var(--color-grey-3);
+    border-radius: var(--radius-1);
+}
+
+.show-emptyCard{
+    display: none;
+}

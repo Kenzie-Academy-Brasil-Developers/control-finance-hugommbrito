@@ -16,6 +16,11 @@ let insertedValues = [
     value: 15.5,
     categoryID: 0,
   },
+  {
+    id: 4,
+    value: 999.90,
+    categoryID: 1,
+  },
 ];
 
 let insertedValuesfiltered = [];

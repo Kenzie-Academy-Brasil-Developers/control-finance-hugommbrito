@@ -10,6 +10,7 @@
 
     height: 2rem;
     padding: 0 0.875rem;
+    cursor: pointer;
 }
 
 .btn-primary:hover{
@@ -29,6 +30,7 @@
     
     height: 2rem;
     padding: 0 0.875rem;
+    cursor: pointer;
 }
 
 .btn-greylow:hover{
@@ -53,6 +55,7 @@
     
     height: 2rem;
     padding: 0 0.875rem;
+    cursor: pointer;
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline-actived{
@@ -73,6 +76,7 @@
     height: 1.625rem;
     width: 1.625rem;
     padding: 0 0.5rem;
+    cursor: pointer;
 }
 
 .btn-delete:hover{

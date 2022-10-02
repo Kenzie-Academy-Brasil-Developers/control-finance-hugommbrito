@@ -21,10 +21,10 @@ OK      III - Checar se está FIEL ao figma
 OK  5 - Criar lógica para abrir e fechar Modal
 
     6 - Criar funções JS
-        I - Criar função para renderizar os cards na tela (recebe como parâmetro uma lista de cards (completa ou filtrada))
-        II -  Criar a função de renderizar a soma dos cards exibidos (recebe como parâmetro uma lista de cards (completa ou filtrada))
-        III - Criar função para filtrar os dados selecionados (a partir do click)
-            a. renderizar os cards filtrados
-            b. renderizar a soma do filtro
-        IV - Criar função para remover os dados (usar ID do botão), remover dos dois arrays (completo e filtrado)
+OK      I - Criar função para renderizar os cards na tela (recebe como parâmetro uma lista de cards (completa ou filtrada))
+OK      II -  Criar a função de renderizar a soma dos cards exibidos (recebe como parâmetro uma lista de cards (completa ou filtrada))
+OK      III - Criar função para filtrar os dados selecionados (a partir do click)
+OK          a. renderizar os cards filtrados
+OK          b. renderizar a soma do filtro
+OK      IV - Criar função para remover os dados (usar ID do botão), remover dos dois arrays (completo e filtrado)
         V - Criar função responsável por adicionar novos elementos no objeto 
